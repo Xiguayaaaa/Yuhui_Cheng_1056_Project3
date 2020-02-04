@@ -1,0 +1,30 @@
+homepage size: 1302×800px
+adoptpage size: 1201×1024 px
+header & footer:
+	font family: Poiret one regular
+	font size: 18px
+	color: #ffffff
+h1:
+	font family: Orbitron Bold
+	font size: 60px
+	color: #350f0d
+h2:
+	font family: Poppins thin 100
+	font size: 50px
+	color: #aaaaaa
+h3:
+	font family: Shadows into light
+	font size: 45px
+	color: #f7b54b
+para1:
+	font family: Indie flower regular
+	font size: 18px
+	color: #681515
+para2:
+	font family: EB Garamond regular
+	font size: 16px
+	color: black
+name:
+	font family: arial
+	font size: 16px
+	color: black
