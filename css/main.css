@@ -28,7 +28,7 @@ nav
 {
   padding: 10px;
   float: right;
-  font-family: "Poiret one regular";
+  font-family: "Poiret one";
 }
 
 nav ul
@@ -39,11 +39,12 @@ nav ul
 nav ul li
 {
 	float: left;
+  display: inline;
 }
 
 nav ul li a
 {
-	display: block;
+	display: inline-block;
 	color: #fff;
 	font-size: 16px;
 	text-decoration: none;
@@ -66,7 +67,7 @@ nav ul li a:hover
 h1
 {
   text-align: center;
-  font-family: "Orbitron Bold";
+  font-family: "Orbitron";
   font-size: 60px;
   line-height: normal;
   letter-spacing: 2PX;
@@ -91,7 +92,7 @@ h1
 h2
 {
   text-align: center;
-  font-family: "Poppins thin 100";
+  font-family: "Poppins";
   font-size: 50px;
   line-height: 60px;
   letter-spacing: 2px;
@@ -101,21 +102,25 @@ h2
 
 .body-img{
   display: flex; flex-direction: column;
+  cursor: pointer;
   width: 250px;
   height: 250px;
-  background-color: gray;
+  transition: all 0.5s;
+}
+
+.body-img:hover{
+  transform: scale(1.2);
 }
 
 .info{
   text-align: center;
-  font-family: "Indie flower regular";
+  font-family: "Indie flower";
   width: auto;
   font-size: 18px;
+  margin-bottom: 50px;
   line-height: 30px;
-  margin: auto 0 ;
   color: #681515;
 }
-
 
 h3{
     text-align: center;
@@ -125,16 +130,6 @@ h3{
     letter-spacing: normal;
     font-weight:400;
     color: #f7b54b;
-}
-.contact
-{
-  text-align: left;
-  margin: auto;
-  font-size: 16px;
-  line-height: 20px;
-  width: 1280px;
-  font-family: "EB Garamond regular";
-
 }
 
 footer{

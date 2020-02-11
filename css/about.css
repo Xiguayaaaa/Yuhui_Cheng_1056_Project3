@@ -1,0 +1,158 @@
+.container
+{
+  margin: 0 auto;
+  width: 1280px;
+}
+
+body
+{
+  width:1280px;
+  margin: 0 auto;
+}
+
+header
+{
+  padding: 10PX;
+	height: 60px;
+  width: 1280px;
+  margin:0 auto;
+  background-color: #ddb1b1;
+}
+
+.logo{
+  width: 60px;
+  height: 60px;
+}
+
+nav
+{
+  padding: 10px;
+  float: right;
+  font-family: "Poiret one";
+}
+
+nav ul
+{
+	list-style-type: none;
+}
+
+nav ul li
+{
+	float: left;
+}
+
+nav ul li a
+{
+	display: block;
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+	margin-left: 30px;
+	margin-top: 10px;
+	padding: 10px;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+nav ul li a:hover
+{
+	background-color: #73B2E2;
+	border-radius: 10px;
+	color: #333;
+}
+
+h1
+{
+  text-align: center;
+  font-family: "Orbitron";
+  font-size: 60px;
+  line-height: normal;
+  letter-spacing: 2PX;
+  font-weight: bold;
+  width: 1280px;
+  color: #350f0d ;
+}
+
+h2
+{
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  color: #aaaaaa;
+}
+
+.content
+{
+  padding: 10px;
+  text-align: center;
+  text-indent: 10px;
+  display: flex;
+  margin: auto;
+  line-height: 20px;
+  width: 1000px;
+}
+
+h3
+{
+  text-align: center;
+  font-family: "Shadows into light";
+  font-size: 40px;
+  line-height: normal;
+  color: #f7b54b;
+}
+
+.room-img{
+  margin-left: 50px;
+  width: 300px;
+  height: 400px;
+  margin-bottom: 50px;
+  animation: bounceIn 4s;
+}
+
+@keyframes bounceIn {
+  0%{
+    transform: scale(0.2);
+    opacity: 0.2;
+  }
+  60%{
+    transform: scale(1.4);
+    opacity: 1;
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+.info{
+  text-align: left;
+  font-family: "Indie flower";
+  font-size: 20px;
+  line-height: 50px;
+  width: 200px;
+  padding: 10PX;
+  margin: auto 0 ;
+  color: #681515;
+}
+
+footer{
+  padding: 10PX;
+  font-family: "Poiret one regular";
+  font-size: 18px;
+	height: 60px;
+  width: 1280px;
+  margin:0 auto;
+  background-color: #ddb1b1;
+  float: left;
+}
+
+
+.footer-logo
+{
+  height: 60px;
+  width: 60px;
+}

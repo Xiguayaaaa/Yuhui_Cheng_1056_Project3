@@ -1,0 +1,139 @@
+.container
+{
+  margin: 0 auto;
+  width: 1280px;
+}
+
+body
+{
+  width:1280px;
+  margin: 0 auto;
+}
+
+header
+{
+  padding: 10PX;
+	height: 60px;
+  width: 1280px;
+  margin:0 auto;
+  background-color: #ddb1b1;
+}
+
+.logo{
+  width: 60px;
+  height: 60px;
+}
+
+nav
+{
+  padding: 10px;
+  float: right;
+  font-family: "Poiret one";
+}
+
+nav ul
+{
+	list-style-type: none;
+}
+
+nav ul li
+{
+	float: left;
+}
+
+nav ul li a
+{
+	display: block;
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+	margin-left: 30px;
+	margin-top: 10px;
+	padding: 10px;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+nav ul li a:hover
+{
+	background-color: #73B2E2;
+	border-radius: 10px;
+	color: #333;
+}
+
+h1
+{
+  text-align: center;
+  font-family: "Orbitron";
+  font-size: 60px;
+  line-height: normal;
+  letter-spacing: 2PX;
+  font-weight: bold;
+  width: 1280px;
+  color: #350f0d ;
+}
+
+.content
+{
+  padding: 5px;
+  justify-content: space-between;
+  display: flex;
+  text-align: center;
+  text-indent: 25px;
+  margin: auto;
+  line-height: 20px;
+  width: 1200px;
+  margin-bottom: 100px;
+}
+
+h2
+{
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  color: #aaaaaa;
+  margin-bottom: 40px;
+}
+
+.body-img{
+  width: 500px;
+  height: 500px;
+  transition: all 1s;
+}
+
+.body-img:hover{
+  transform: scale(1.1);
+}
+
+.info{
+  text-align: left;
+  font-family: "Indie flower";
+  font-size: 30px;
+  line-height: 80px;
+  margin: auto 0 ;
+  color: #000000;
+}
+
+
+footer{
+  padding: 10PX;
+  font-family: "Poiret one regular";
+  font-size: 18px;
+	height: 60px;
+  width: 1280px;
+  margin:0 auto;
+  background-color: #ddb1b1;
+  float: left;
+}
+
+
+.footer-logo
+{
+  height: 60px;
+  width: 60px;
+}
